@@ -1,0 +1,44 @@
+{
+  "name": "blog-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "creating a blog app in mern tech-stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run dev --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neelparekh18/mern-blog-app.git"
+  },
+  "keywords": [
+    "blog",
+    "mern",
+    "full-stack",
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "blogging",
+    "web-application",
+    "development"
+  ],
+  "author": "Neel Parekh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neelparekh18/mern-blog-app/issues"
+  },
+  "homepage": "https://github.com/Neelparekh18/mern-blog-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0"
+  }
+}
